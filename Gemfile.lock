@@ -24,7 +24,7 @@ GEM
     method_source (0.8.2)
     minitest (4.7.5)
     multi_json (1.9.0)
-    pg (0.17.1)
+    pg (0.21.0)
     pry (0.9.12.6)
       coderay (~> 1.0)
       method_source (~> 0.8)
@@ -39,5 +39,8 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
-  pg
+  pg (~> 0.20)
   pry
+
+BUNDLED WITH
+   1.14.5
